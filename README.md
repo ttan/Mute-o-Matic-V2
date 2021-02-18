@@ -33,7 +33,7 @@ Easy. I just needed something to quickly mute/unmute the calls because I tend to
 - 1 x SPST slide switch
 - 1 X 220 ohm resistance
 
-## Windows only inprovement
+## Windows only improvement
 On my personal version of the Mute-o-Matic V2, I included another command which brings Teams on focus before toggling mute. This can be done with an idiot trick: pin Teams' icon in the bar (how is it called? the one below) and count what number is it starting from the left. You can switch to that with the shortcut: 
 ```
 Alt + [Number]
