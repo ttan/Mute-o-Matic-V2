@@ -26,6 +26,13 @@ For macOs (For macOs, cmd is mapped to GUI. I guess in Windows this would be the
 
 Easy. I just needed something to quickly mute/unmute the calls because I tend to get distracted and racing to find the proper button with the mouse is too hard.
 
+## Parts used
+- (Raspberry Pi Pico)[https://www.raspberrypi.org/documentation/pico/getting-started/]
+- 2 x Panel mount push button (Normally open)
+- 1 x Red Led
+- 1 x SPST slide switch
+- 1 X 220 ohm resistance
+
 ## Windows only inprovement
 On my personal version of the Mute-o-Matic V2, I included another command which brings Teams on focus before toggling mute. This can be done with an idiot trick: pin Teams' icon in the bar (how is it called? the one below) and count what number is it starting from the left. You can switch to that with the shortcut: 
 ```
