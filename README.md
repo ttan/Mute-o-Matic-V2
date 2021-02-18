@@ -27,7 +27,7 @@ For macOs (For macOs, cmd is mapped to GUI. I guess in Windows this would be the
 Easy. I just needed something to quickly mute/unmute the calls because I tend to get distracted and racing to find the proper button with the mouse is too hard.
 
 ## Parts used
-- (Raspberry Pi Pico)[https://www.raspberrypi.org/documentation/pico/getting-started/]
+- [Raspberry Pi Pico](https://www.raspberrypi.org/documentation/pico/getting-started/)
 - 2 x Panel mount push button (Normally open)
 - 1 x Red Led
 - 1 x SPST slide switch
