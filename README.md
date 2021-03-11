@@ -4,7 +4,7 @@ Hardware mute button and end call for MS Teams, with led indicator. Since I'm us
 
 This was my test project for the new Raspberry Pi Pico; with ~4€ you get a crazy good microprocessor and implementing HID functionality is extremelty trivial.
 
-The project is written in CircuitPython, using the [Adafruit HID Library](https://circuitpython.readthedocs.io/projects/hid/en/latest/index.html). ~~I used a transparent plastic container because... well, that's the only thing I had in the house and there's lockdown due to COVID-19. Feel free to buy me a 3D Printer ❤️~~ I actually ended up buying a 3D printer so here you are the Mute-o-Matic v2 in its fancy plastic box!
+The project is written in CircuitPython, using the [Adafruit HID Library](https://circuitpython.readthedocs.io/projects/hid/en/latest/index.html). Remember to copy the library file on the Pico together with the code.py file. ~~I used a transparent plastic container because... well, that's the only thing I had in the house and there's lockdown due to COVID-19. Feel free to buy me a 3D Printer ❤️~~ I actually ended up buying a 3D printer so here you are the Mute-o-Matic v2 in its fancy plastic box!
 
 You can find the design of the case in the *case* folder. It's my first design, so expect some filing here and there, it needs some millimetric adjustments.
 
