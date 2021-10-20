@@ -23,8 +23,12 @@ led.direction = Direction.OUTPUT
 
 keyboard=Keyboard(usb_hid.devices)
 
+bt1Released = True
+bt2Released = True
+
 while True:
-    if not bt1.value:
+    if not bt1.value and bt1Released:
+        bt1Released = False
         if switch.value:
             #MacOs
             print("Button 1, Switch position 1")
@@ -35,8 +39,8 @@ while True:
             print("Button 1, Switch position 2")
             led.value = not led.value
             keyboard.send(Keycode.CONTROL, Keycode.SHIFT, Keycode.M)
-
-    elif not bt2.value:
+    if not bt2.value and bt2Released:
+        bt2Released = False
         if switch.value:
             #MacOs
             print("Button 2, Switch position 1")
@@ -45,4 +49,7 @@ while True:
             #Windows
             print("Button 2, Switch position 2")
             keyboard.send(Keycode.CONTROL, Keycode.SHIFT, Keycode.B)
-    time.sleep(0.2)
+    if bt1.value and not bt1Released:
+        bt1Released = true
+    if bt2.value and not bt2Released:
+        bt2Released = true
